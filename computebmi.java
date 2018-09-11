@@ -13,5 +13,7 @@ public class computebmi{
 
     double weightINKilograms = weight * KILOGRAMS_PER_POUND;
     double heightINMeters= height * METERS_PER_INCH;
+double masa= weightINKilograms/heightINMeters;
+  System.out.println("tu indice de masa corporal es" + masa);
   }
 }
