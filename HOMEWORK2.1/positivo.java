@@ -14,5 +14,6 @@ public class positivo{
           System.out.println("El numero "+num+" es negativo");
           }
       }
+    
       }
 }

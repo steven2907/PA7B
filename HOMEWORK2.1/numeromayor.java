@@ -19,5 +19,6 @@ System.out.println("Ingresa primer numero ");
           System.out.println("El numero mayor es " + ter);
         }
       }
+      
     }
   }

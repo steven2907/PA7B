@@ -18,6 +18,7 @@ public class trajes{
               System.out.println("el traje con descuento cuesta " + (tr-pag));
               System.out.println("el descuento es " + pag);
           }
+        
       }
     }
   }

@@ -37,6 +37,5 @@ else
   System.out.println("cada alumno paga "+total);
 System.out.println("sepago por los autobuse "+tol);
 }
-
   }
 }

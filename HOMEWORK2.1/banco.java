@@ -33,5 +33,6 @@ System.out.println("nuevo credito es" +total);
 
 N=c+total;
   System.out.println("nuevo limite de credito es " + N);
+
   }
 }

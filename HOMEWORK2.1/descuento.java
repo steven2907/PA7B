@@ -16,5 +16,6 @@ public class descuento{
               System.out.println("La cantidad que vas a apagar es" + pag);
           }
       }
+      
     }
   }

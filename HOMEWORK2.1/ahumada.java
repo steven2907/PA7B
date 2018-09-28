@@ -20,5 +20,6 @@ else{
 }
   total=personas*tarifa;
 System.out.println("el total es de: " + total);
+
 }
 }

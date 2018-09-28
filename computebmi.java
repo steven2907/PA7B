@@ -13,7 +13,19 @@ public class computebmi{
 
     double weightINKilograms = weight * KILOGRAMS_PER_POUND;
     double heightINMeters= height * METERS_PER_INCH;
-double masa= weightINKilograms/heightINMeters;
+double masa= weightINKilograms/(heightINMeters*heightINMeters);
+if (masa < 18 )
+System.out.println("eres muy flaco");
+else if (masa < 25 )
+  System.out.println("eres flaco");
+else if (masa < 29)
+System.out.println("estas en el peso normal");
+else if (masa < 35 )
+System.out.println("te pasas un poco del peso");
+else if (masa < 45 )
+  System.out.println("tienes sobrepeso");
+
+
   System.out.println("tu indice de masa corporal es" + masa);
   }
 }
